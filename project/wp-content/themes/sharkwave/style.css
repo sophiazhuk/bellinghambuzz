@@ -1,0 +1,117 @@
+/*
+Theme Name: SharkWave
+Theme URI: https://themegrove.com/products/sharkpulse/
+Author: Themegrove
+Author URI: https://themegrove.com/
+Description: Elevate your online presence with SharkWave, a cutting-edge WordPress theme designed for full-site editing. Immerse yourself in a seamless website customization experience where every element is at your fingertips. From dynamic homepage arrangements to personalized portfolio showcases, SharkWave empowers you to sculpt a modern, urban-inspired digital space that resonates with your unique style. With its intuitive controls and visually stunning layouts, this theme transforms your WordPress journey into a creative exploration of urban aesthetics and functional design. Welcome to SharkWave – where your website becomes a canvas for your digital expression. demo: https://demos.themegrove.com/sharkwave/
+Template: sharkpulse
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sharkwave
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+.footer-links a {
+	text-decoration: none;
+}
+
+/* scrool to top */
+
+.sharkwave-scrool-top {
+	display: none;
+}
+
+.sharkwave-scrool-top::before {
+	font-size: 20px;
+	padding: 8px 13px;
+	cursor: pointer;
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--black);
+	content: '\f343';
+	font-family: "dashicons";
+	font-weight: 700;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	border-radius: 6px;
+	z-index: 9;
+}
+
+@media screen and (max-width: 600px) {
+	.sharkwave-scrool-top::before {
+		font-size: 26px;
+		padding: 8px 13px;
+		cursor: pointer;
+		background: transparent;
+		color: var(--wp--preset--color--primary);
+		content: '\f062';
+		font-family: "Font Awesome 5 Free";
+		font-weight: 600;
+		position: fixed;
+		bottom: 8px;
+		right: 15px;
+		z-index: 9;
+	}
+}
+
+/* scrool to top */
+
+/* Sharkwave custom style */
+
+.contact-form label,
+.contact-form span {
+	display: block;
+	width: 100%;
+}
+
+
+.contact-form form.wpcf7-form.init input {
+	border: 1px solid var(--wp--preset--color--secondary);
+	height: 45px;
+	width: 100%;
+	border-radius: 5px;
+	background: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--contrast);
+}
+
+.contact-form textarea.wpcf7-form-control.wpcf7-textarea {
+	border: 1px solid var(--wp--preset--color--secondary);
+	max-height: 100px;
+	width: 100%;
+	border-radius: 5px;
+	background: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--contrast);
+}
+
+.contact-form input.wpcf7-form-control.wpcf7-submit.has-spinner {
+	background: var(--wp--preset--color--primary);
+	padding: 0 30px;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	width: auto;
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--heading);
+}
+
+.single_add_to_cart_button {
+	color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-query-pagination{
+	padding-top: 50px;
+}
+
+.wc-block-components-totals-coupon__button,
+.wc-block-cart__submit-button, .wc-block-components-checkout-place-order-button {
+	background-color: var(--wp--preset--color--primary);
+	color: #000;
+}
+div#sticky-header-sticky-wrapper {
+    z-index: 9;
+}
+/* Sharkwave custom style */

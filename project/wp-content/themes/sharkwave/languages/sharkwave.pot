@@ -1,0 +1,80 @@
+# Copyright (C) 2024 Themegrove
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SharkWave 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sharkwave\n"
+"POT-Creation-Date: 2024-10-22 15:28:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:34
+msgid "SharkWave"
+msgstr ""
+
+#: patterns/404.php:14
+msgid "404: Page Not Disco-vered"
+msgstr ""
+
+#: patterns/404.php:18
+msgid "Looks like the dance floor is empty here! This page has done disappearing act. Head back to the main stage by clicking the navigation links, and let's keep the party going!"
+msgstr ""
+
+#: patterns/404.php:25
+msgid "Go to home page"
+msgstr ""
+
+#: patterns/archive-product.php:59
+msgid "No products were found matching your selection. "
+msgstr ""
+
+#: patterns/archive.php:38 patterns/blogs.php:40 patterns/search.php:40
+msgid "No posts found"
+msgstr ""
+
+#: patterns/blogs.php:10 patterns/search.php:10
+msgid "News"
+msgstr ""
+
+#: patterns/sidebar.php:14
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:30
+msgid "Tags"
+msgstr ""
+
+#: patterns/single-product.php:10
+msgid "Single Product"
+msgstr ""
+
+#: patterns/single-product.php:58
+msgid "Related Products"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "SharkWave"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themegrove.com/products/sharkpulse/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Elevate your online presence with SharkWave, a cutting-edge WordPress theme designed for full-site editing. Immerse yourself in a seamless website customization experience where every element is at your fingertips. From dynamic homepage arrangements to personalized portfolio showcases, SharkWave empowers you to sculpt a modern, urban-inspired digital space that resonates with your unique style. With its intuitive controls and visually stunning layouts, this theme transforms your WordPress journey into a creative exploration of urban aesthetics and functional design. Welcome to SharkWave – where your website becomes a canvas for your digital expression. demo: https://demos.themegrove.com/sharkwave/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themegrove"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themegrove.com/"
+msgstr ""

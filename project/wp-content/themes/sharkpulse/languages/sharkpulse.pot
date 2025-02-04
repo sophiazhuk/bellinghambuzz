@@ -1,0 +1,423 @@
+# Copyright (C) 2024 sharkpulse
+# This file is distributed under the same license as the sharkpulse package.
+msgid ""
+msgstr ""
+"Project-Id-Version: sharkpulse\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-18 10:57+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../class/admin-info.php:22, ../class/admin-info.php:23
+msgid "Sharkpulse Theme"
+msgstr ""
+
+#: ../functions.php:33
+msgid "Sharkpulse"
+msgstr ""
+
+#: ../inc/theme-info.php:59
+msgid "Upgrade to the Pro version to unlock advanced blocks and patterns, dedicated support, and theme installation with demo setup. Experience enhanced flexibility and receive dedicated support to effortlessly elevate your website to new heights of excellence. "
+msgstr ""
+
+#: ../inc/theme-info.php:67
+msgid "Pro Live Demo"
+msgstr ""
+
+#: ../inc/theme-info.php:71, ../inc/theme-info.php:106
+msgid "Buy Pro Now"
+msgstr ""
+
+#: ../inc/theme-info.php:75, ../inc/theme-info.php:110
+msgid "Supports"
+msgstr ""
+
+#: ../inc/theme-info.php:83
+msgid "Block-Based Customization"
+msgstr ""
+
+#: ../inc/theme-info.php:84
+msgid "Create and customize website content effortlessly by arranging various blocks such as text, images, and more within the Gutenberg editor, making web design accessible to all skill levels."
+msgstr ""
+
+#: ../inc/theme-info.php:88
+msgid "Responsive Design"
+msgstr ""
+
+#: ../inc/theme-info.php:89
+msgid "Ensure your website looks and functions flawlessly on various devices, from desktops to mobile devices, thanks to the responsive design of Gutenberg themes, providing an exceptional user experience."
+msgstr ""
+
+#: ../inc/theme-info.php:93
+msgid "Fully Gutenberg Compatibility"
+msgstr ""
+
+#: ../inc/theme-info.php:94
+msgid "Enjoy a hassle-free content creation experience as Gutenberg themes are designed to fully integrate with the Gutenberg block editor, allowing you to easily create, edit, and maintain your website’s design within the editor’s environment."
+msgstr ""
+
+#: ../inc/theme-info.php:98
+msgid "24/7 Support"
+msgstr ""
+
+#: ../inc/theme-info.php:99
+msgid "Our dedicated support team is available around the clock to provide assistance, ensuring your website operates smoothly and addressing any technical issues, customization queries, or general inquiries at any time."
+msgstr ""
+
+#: ../inc/theme-notice.php:2, ../inc/theme-notice.php:5
+msgid "Sharkpulse Pro"
+msgstr ""
+
+#: ../inc/theme-notice.php:3
+msgid "Upgrade to the Pro version to unlock advanced blocks and patterns, dedicated support, and theme installation with demo setup. Experience enhanced flexibility and receive dedicated support to effortlessly elevate your website to new heights of excellence."
+msgstr ""
+
+#: ../inc/theme-notice.php:6
+msgid "Theme Info"
+msgstr ""
+
+#: ../patterns/404.php:14
+msgid "404: Page Not Disco-vered"
+msgstr ""
+
+#: ../patterns/404.php:18
+msgid "Looks like the dance floor is empty here! This page has done disappearing act. Head back to the main stage by clicking the navigation links, and let's keep the party going!"
+msgstr ""
+
+#: ../patterns/404.php:25
+msgid "Go to home page"
+msgstr ""
+
+#: ../patterns/about-first.php:13, ../patterns/about-second.php:19, ../patterns/about-with-gallery.php:37, ../patterns/about-with-gallery.php:59
+msgid "About Us"
+msgstr ""
+
+#: ../patterns/about-first.php:17, ../patterns/about-first.php:21, ../patterns/about-second.php:23, ../patterns/about-with-gallery.php:41, ../patterns/about-with-gallery.php:45, ../patterns/about-with-gallery.php:63, ../patterns/about-with-gallery.php:67, ../patterns/why-choose.php:23
+msgid "Discover Excellence with UrbanPulse: Your Partner in Business Triumph!"
+msgstr ""
+
+#: ../patterns/about-first.php:26, ../patterns/about-second.php:32, ../patterns/about-with-gallery.php:50, ../patterns/about-with-gallery.php:72
+msgid "Learn More"
+msgstr ""
+
+#: ../patterns/about-second.php:27
+msgid "Phasellus nec sem in justo pellentesque facilisis. Morbi mollis tellus ac sapien. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Fusce a quam. Duis lobortis massa imperdiet quam. Phasellus nec sem in justo pellentesque facilisis. Morbi mollis tellus ac sapien. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Fusce a quam. Duis lobortis massa imperdiet quam."
+msgstr ""
+
+#: ../patterns/archive-product.php:59
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: ../patterns/archive.php:38, ../patterns/blogs.php:40
+msgid "No posts found"
+msgstr ""
+
+#: ../patterns/banner-two.php:20, ../patterns/main-banner.php:14, ../patterns/payment-methods.php:45, ../patterns/testimonials-default.php:13
+msgid "Elevate Your Success: Partner with Our Agency for Business Growth!"
+msgstr ""
+
+#: ../patterns/banner-two.php:24, ../patterns/contacts.php:17, ../patterns/get-started.php:17, ../patterns/main-banner.php:18, ../patterns/payment-methods.php:49, ../patterns/testimonials-default.php:17
+msgid "Accelerate your business growth with us! Elevate your brand, captivate your audience, and thrive. Let's achieve success together! #BusinessGrowth"
+msgstr ""
+
+#: ../patterns/banner-two.php:29, ../patterns/call-to-action.php:25, ../patterns/get-started.php:22, ../patterns/header.php:28, ../patterns/main-banner.php:23
+msgid "Schadule a call"
+msgstr ""
+
+#: ../patterns/banner-two.php:37, ../patterns/main-banner.php:31
+msgid "123+ "
+msgstr ""
+
+#: ../patterns/banner-two.php:41, ../patterns/main-banner.php:35
+msgid "Projects Done"
+msgstr ""
+
+#: ../patterns/banner-two.php:49
+msgid "923+ "
+msgstr ""
+
+#: ../patterns/banner-two.php:53, ../patterns/main-banner.php:47
+msgid "Clients"
+msgstr ""
+
+#: ../patterns/call-to-action.php:14
+msgid "Ready To take Your Business Next Level"
+msgstr ""
+
+#: ../patterns/call-to-action.php:20, ../patterns/news.php:24, ../patterns/testimonials.php:21, ../patterns/testimonials.php:33, ../patterns/testimonials.php:53, ../patterns/testimonials.php:54
+msgid "Phasellus nec sem in justo pellentesque facilisis. Morbi mollis tellus ac sapien. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Fusce a quam. Duis lobortis massa imperdiet quam."
+msgstr ""
+
+#: ../patterns/call-to-action.php:29
+msgid "Contact Us"
+msgstr ""
+
+#: ../patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr ""
+
+#: ../patterns/cart.php:74
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: ../patterns/cart.php:82
+msgid "New in store"
+msgstr ""
+
+#: ../patterns/contacts.php:28
+msgid "Test Building123, Cape Town, Test City"
+msgstr ""
+
+#: ../patterns/contacts.php:38
+msgid "mail@example.com"
+msgstr ""
+
+#: ../patterns/contacts.php:48
+msgid "+1-(099)-098-123"
+msgstr ""
+
+#: ../patterns/faq.php:13
+msgid "Freequently Asked Questions"
+msgstr ""
+
+#: ../patterns/faq.php:17
+msgid "Aliquam lobortis. Praesent blandit laoreet nibh. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nullam vel sem. Ut tincidunt tincidunt erat."
+msgstr ""
+
+#: ../patterns/faq.php:21, ../patterns/payment-methods.php:53
+msgid "Quisque ut nisi. Quisque ut nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque auctor neque nec urna. In turpis."
+msgstr ""
+
+#: ../patterns/faq.php:28
+msgid "Phasellus tempus. Etiam feugiat lorem non metus. Donec venenatis vulputate lorem. Pellentesque auctor neque nec urna. Nunc nec neque."
+msgstr ""
+
+#: ../patterns/faq.php:32, ../patterns/faq.php:36, ../patterns/faq.php:46, ../patterns/faq.php:50, ../patterns/faq.php:54, ../patterns/faq.php:58, ../patterns/faq.php:64, ../patterns/faq.php:68, ../patterns/faq.php:72, ../patterns/faq.php:76, ../patterns/faq.php:82, ../patterns/faq.php:86, ../patterns/faq.php:90, ../patterns/faq.php:94
+msgid "Aliquam eu nunc. Etiam iaculis nunc ac metus. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Praesent vestibulum dapibus nibh. Fusce commodo aliquam arcu."
+msgstr ""
+
+#: ../patterns/faq.php:40, ../patterns/features-default.php:21, ../patterns/features-default.php:35, ../patterns/features-default.php:49
+msgid "Maecenas malesuada. Sed hendrerit. Vivamus euismod mauris. In turpis. Nulla consequat massa quis enim."
+msgstr ""
+
+#: ../patterns/features.php:17
+msgid "Performance"
+msgstr ""
+
+#: ../patterns/features.php:21, ../patterns/features.php:35, ../patterns/features.php:49, ../patterns/features.php:63
+msgid "Fusce pharetra convallis urna. Donec mi odio, scelerisque quis, convallis in, nisi. Praesent ut ligula non mi varius sagittis"
+msgstr ""
+
+#: ../patterns/features.php:31
+msgid "SEO"
+msgstr ""
+
+#: ../patterns/features.php:45
+msgid "Best Practices"
+msgstr ""
+
+#: ../patterns/features.php:59
+msgid "Accessibility"
+msgstr ""
+
+#: ../patterns/footer.php:15
+msgid "Designed with "
+msgstr ""
+
+#: ../patterns/footer.php:15
+msgid "WordPress"
+msgstr ""
+
+#: ../patterns/get-started.php:13
+msgid "Ready to Get Started ?"
+msgstr ""
+
+#: ../patterns/get-started.php:26
+msgid "Contact us Now"
+msgstr ""
+
+#: ../patterns/get-started.php:37
+msgid "Cloud data storage"
+msgstr ""
+
+#: ../patterns/get-started.php:41, ../patterns/get-started.php:55
+msgid "Praesent adipiscing. Curabitur blandit mollis lacus. Praesent ut ligula non mi varius sagittis. Praesent turpis."
+msgstr ""
+
+#: ../patterns/get-started.php:51
+msgid "Smart connection"
+msgstr ""
+
+#: ../patterns/icon-box-default.php:11
+msgid "Join Us For Secured Payments"
+msgstr ""
+
+#: ../patterns/icon-box-default.php:21
+msgid "20M+ User"
+msgstr ""
+
+#: ../patterns/icon-box-default.php:25, ../patterns/icon-box-default.php:39, ../patterns/icon-box-default.php:53
+msgid "Praesent adipiscing. Curabitur blandit mollis lacus. Praesent ut ligula non mi varius sagittis. Praesent turpis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc."
+msgstr ""
+
+#: ../patterns/icon-box-default.php:35
+msgid "90% Success Rate"
+msgstr ""
+
+#: ../patterns/icon-box-default.php:49
+msgid "5890+ Branches"
+msgstr ""
+
+#: ../patterns/icon-box.php:17
+msgid "Block-Powered Flexibility"
+msgstr ""
+
+#: ../patterns/icon-box.php:21, ../patterns/icon-box.php:35, ../patterns/icon-box.php:49, ../patterns/icon-box.php:63
+msgid "Fusce pharetra convallis urna. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Praesent ut ligula non mi varius sagittis"
+msgstr ""
+
+#: ../patterns/icon-box.php:31
+msgid "Global Template Control"
+msgstr ""
+
+#: ../patterns/icon-box.php:45
+msgid "Unified Styling with Global Styles"
+msgstr ""
+
+#: ../patterns/icon-box.php:59
+msgid "Hierarchical Template Mastery"
+msgstr ""
+
+#: ../patterns/main-banner.php:43
+msgid "923+"
+msgstr ""
+
+#: ../patterns/news.php:13
+msgid "Blog"
+msgstr ""
+
+#: ../patterns/news.php:18
+msgid "Read Our Latest News"
+msgstr ""
+
+#: ../patterns/payment-methods.php:18
+msgid "Credit Card Payment"
+msgstr ""
+
+#: ../patterns/payment-methods.php:28
+msgid "Scan to Pay"
+msgstr ""
+
+#: ../patterns/payment-methods.php:38
+msgid "Cash on Delivery"
+msgstr ""
+
+#: ../patterns/search.php:34
+msgid "Nothing found"
+msgstr ""
+
+#: ../patterns/sidebar.php:14
+msgid "Latest Posts"
+msgstr ""
+
+#: ../patterns/sidebar.php:22
+msgid "Categories"
+msgstr ""
+
+#: ../patterns/sidebar.php:30
+msgid "Tags"
+msgstr ""
+
+#: ../patterns/single-product.php:10
+msgid "Single Product"
+msgstr ""
+
+#: ../patterns/single-product.php:58
+msgid "Related Products"
+msgstr ""
+
+#: ../patterns/team.php:11
+msgid "Our Awesome Team"
+msgstr ""
+
+#: ../patterns/team.php:21, ../patterns/team.php:69, ../patterns/team.php:93
+msgid "Meriga Linga"
+msgstr ""
+
+#: ../patterns/team.php:25
+msgid "CEO/Developer"
+msgstr ""
+
+#: ../patterns/team.php:45, ../patterns/testimonials.php:46, ../patterns/testimonials.php:67
+msgid "John Smith"
+msgstr ""
+
+#: ../patterns/team.php:49
+msgid "COO/Developer"
+msgstr ""
+
+#: ../patterns/team.php:73
+msgid "CTO/Developer"
+msgstr ""
+
+#: ../patterns/testimonials-default.php:22
+msgid "In hac habitasse platea dictumst. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem."
+msgstr ""
+
+#: ../patterns/testimonials-default.php:32
+msgid "John Doe"
+msgstr ""
+
+#: ../patterns/testimonials-default.php:32
+msgid "Praesent turpis. Vivamus consectetuer "
+msgstr ""
+
+#: ../patterns/testimonials.php:13
+msgid "Testimonials"
+msgstr ""
+
+#: ../patterns/testimonials.php:17
+msgid "What Clients Are Saying"
+msgstr ""
+
+#: ../patterns/testimonials.php:37, ../patterns/testimonials.php:58
+msgid "Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Ut tincidunt tincidunt erat. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Vivamus euismod mauris. Fusce vulputate eleifend sapien."
+msgstr ""
+
+#: ../patterns/testimonials.php:46, ../patterns/testimonials.php:67
+msgid "Ceo/Co-Founder"
+msgstr ""
+
+#: ../patterns/why-choose.php:19
+msgid "Why Choose Us ?"
+msgstr ""
+
+#: ../patterns/why-choose.php:29
+msgid "Experiance"
+msgstr ""
+
+#: ../patterns/why-choose.php:33, ../patterns/why-choose.php:43
+msgid "Phasellus nec sem in justo pellentesque facilisis. Morbi mollis tellus ac sapien. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh,"
+msgstr ""
+
+#: ../patterns/why-choose.php:39
+msgid "Expertise"
+msgstr ""
+
+#: ../patterns/why-choose.php:51
+msgid "Passion"
+msgstr ""
+
+#: ../patterns/why-choose.php:55, ../patterns/why-choose.php:65
+msgid "Phasellus nec sem in justo pellentesque facilisis. Morbi mollis tellus ac sapien. Suspendisse pulvinar, augue ac venenatis condimentum,"
+msgstr ""
+
+#: ../patterns/why-choose.php:61
+msgid "Customer Focus"
+msgstr ""
