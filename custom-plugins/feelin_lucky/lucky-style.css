@@ -1,0 +1,119 @@
+#lucky-container {
+    text-align: center;
+    margin: auto;
+    font-family: var(--wp--preset--font-family--heading);
+}
+
+#lucky-reroll {
+    background-color: var(--wp--preset--color--primary);
+    border: none;
+    border-radius: 30px;
+    color: var(--wp--preset--color--base);
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.top-match-card {
+    background: #000000;
+    border-radius: 24px;
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.top-match-card-link {
+    text-decoration: none !important;
+}
+
+.top-match-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border: solid 0px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    gap: 14px;
+}
+
+.info-container h3 {
+    margin: 0;
+}
+
+.tag-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.tag {
+    padding: 8px 15px;
+	border: 1px solid;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+}
+.approved-kiley {
+    border: 2px solid #FFC107;
+}
+
+.approved-maya {
+    border: 2px solid #C2185B;
+}
+
+.approved-sophia {
+    color: #2196F3;
+    border: 2px solid #1976D2;
+}
+
+
+.tag.type {
+    border-color: #00a67d;
+}
+.budget {
+    border-color: #0FA958;
+	border:1px;
+}
+.tag.age-restricted {
+     border-color: #ff13b5;
+}
+.tag.vibe {
+    border-color:#8ee723 ;
+	color:white;
+	border-width:1px;
+}
+.active {
+   border-color: #f24e1e;
+}
+
+
+.budget-cheap::after {
+    content: '$$';
+    color: #284f2a;
+}
+
+.budget-expensive::after {
+    content: '$';
+    color: #284f2a;
+}
+
+.budget-expensive::before {
+    content: '$';
+}

@@ -1,0 +1,387 @@
+/*
+Theme Name: SharkWave
+Theme URI: https://themegrove.com/products/sharkpulse/
+Author: Themegrove
+Author URI: https://themegrove.com/
+Description: Elevate your online presence with SharkWave, a cutting-edge WordPress theme designed for full-site editing. Immerse yourself in a seamless website customization experience where every element is at your fingertips. From dynamic homepage arrangements to personalized portfolio showcases, SharkWave empowers you to sculpt a modern, urban-inspired digital space that resonates with your unique style. With its intuitive controls and visually stunning layouts, this theme transforms your WordPress journey into a creative exploration of urban aesthetics and functional design. Welcome to SharkWave – where your website becomes a canvas for your digital expression. demo: https://demos.themegrove.com/sharkwave/
+Template: sharkpulse
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sharkwave
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+.footer-links a {
+	text-decoration: none;
+}
+
+/* scrool to top */
+
+.sharkwave-scrool-top {
+	display: none;
+}
+
+.sharkwave-scrool-top::before {
+	font-size: 20px;
+	padding: 8px 13px;
+	cursor: pointer;
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--black);
+	content: '\f343';
+	font-family: "dashicons";
+	font-weight: 700;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	border-radius: 6px;
+	z-index: 9;
+}
+
+@media screen and (max-width: 600px) {
+	.sharkwave-scrool-top::before {
+		font-size: 26px;
+		padding: 8px 13px;
+		cursor: pointer;
+		background: transparent;
+		color: var(--wp--preset--color--primary);
+		content: '\f062';
+		font-family: "Font Awesome 5 Free";
+		font-weight: 600;
+		position: fixed;
+		bottom: 8px;
+		right: 15px;
+		z-index: 9;
+	}
+}
+
+/* scrool to top */
+
+/* Sharkwave custom style */
+
+.contact-form label,
+.contact-form span {
+	display: block;
+	width: 100%;
+}
+
+
+.contact-form form.wpcf7-form.init input {
+	border: 1px solid var(--wp--preset--color--secondary);
+	height: 45px;
+	width: 100%;
+	border-radius: 5px;
+	background: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--contrast);
+}
+
+.contact-form textarea.wpcf7-form-control.wpcf7-textarea {
+	border: 1px solid var(--wp--preset--color--secondary);
+	max-height: 100px;
+	width: 100%;
+	border-radius: 5px;
+	background: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--contrast);
+}
+
+.contact-form input.wpcf7-form-control.wpcf7-submit.has-spinner {
+	background: var(--wp--preset--color--primary);
+	padding: 0 30px;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	width: auto;
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--heading);
+}
+
+.single_add_to_cart_button {
+	color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-query-pagination{
+	padding-top: 50px;
+}
+
+.wc-block-components-totals-coupon__button,
+.wc-block-cart__submit-button, .wc-block-components-checkout-place-order-button {
+	background-color: var(--wp--preset--color--primary);
+	color: #000;
+}
+div#sticky-header-sticky-wrapper {
+    z-index: 9;
+}
+/* Sharkwave custom style */
+
+
+/* Sophia's Location Styles */
+
+#header, #footer, hr {display: none;}
+* {box-sizing: border-box;}
+.location-container {
+    padding: 0 168px;
+    background: none;
+}
+
+.location-header {
+    text-align: left;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 1.5rem;
+
+}
+.location-title {
+    margin:0;
+    font-weight:bold;
+
+}
+.location-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.location-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.location-right {
+    flex: 1;
+    min-width: 300px;
+    padding:0 18px;
+}
+
+.location-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.location-meta {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    gap: 8px;
+}
+
+.location-meta .bubble {
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid;
+    border-radius: 24px;
+}
+.location-meta .loc-type {
+    border-color: #00a67d;
+}
+.location-meta .loc-price {
+    border-color: #0FA958;
+}
+.location-meta .loc-21plus {
+     border-color: #ff13b5;
+}
+.location-meta .loc-vibe {
+    border-color:#8ee723 ;
+}
+.location-meta .loc-active {
+   border-color: #f24e1e;
+}
+.location-meta .loc-approved {
+     /*border-color: blue;*/
+}
+.white-dollar {
+    color: white;
+}
+
+.gray-dollar {
+    color: #515962;
+}
+.tags-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tags-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.tags-table td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
+
+.tags-table td:last-child {
+    text-align: right;
+}
+
+
+.location-tags .tag {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+
+.location-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.location-hours h3{
+    margin-top:0;
+}
+
+.hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size:small;
+}
+
+.hours-table th,
+.hours-table td {
+    padding: 6px;
+    text-align: left;
+}
+
+.hours-table th {
+    color: white;
+}
+.info-buttons {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-bottom:20px;
+}
+.info-buttons a {
+    width: 50%;
+}
+.visit-website-button {
+display: block;
+    text-align: center;
+    color: white;
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.visit-website-button:hover {
+    background-color: white;
+    color: black;
+}
+.location-directions {
+    margin: 0px;
+}
+
+.directions-button {
+display: block;
+    text-align: center;
+    color: black;
+    padding: .5rem;
+    background-color:#f24e1e;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.directions-button:hover {
+    background-color: black;
+    color: #f24e1e;
+    border: 1px solid #f24e1e;
+
+}
+
+.restaurant-info {
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.restaurant-info h3 {
+    margin-top:0;
+    margin-bottom: 8px;
+}
+
+.restaurant-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.restaurant-info li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant-info li:last-child {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+    .location-container {
+        padding: 0 18px !important;
+    }   
+    .location-content {
+        flex-direction: column !important;
+    }
+
+    .location-left,
+    .location-right {
+        min-width: 100% !important;
+    }
+}
+
+
+/* Kiley's style changes */
+
+.header-title {
+    transition: all 300ms ease-in-out;
+}
+
+.lucky-button {
+    display: block;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.lucky-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.take-quiz-button {
+    text-align: center;
+    padding: .5rem;
+    color: black;
+    padding: .5rem;
+    background: #f24e1e;
+    border-radius: 2rem;
+    /*text-decoration: none;*/
+    transition: all 300ms ease-in-out;
+}
+
+.take-quiz-button:hover {
+    background: white;
+    color: #f24e1e;
+    text-decoration: none;
+}
+
+
