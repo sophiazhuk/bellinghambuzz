@@ -1,8 +1,10 @@
 <?php
 /**
- * Plugin Name: auto
- * Version: 1.0
+ * Plugin Name: Auto Populate Custom Posts
+ * Description: A magic button that auto creates custom posts for every location entry.
+ * Version: 1.0.0
  * Author: Sophia
+
  */
 
 if (!defined('ABSPATH')) {

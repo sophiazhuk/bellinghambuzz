@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: I'm Feelin' Lucky
- * Description: A random restaurant selector for Bellingham Buzz.
+ * Plugin Name: I'm Feelin' Lucky Button
+ * Description: A random location selector for Bellingham Buzz.
  * Version: 1.0.0
  * Author: Sophia
  */
@@ -11,8 +11,8 @@ if (!defined('ABSPATH')) {
 }
 
 function lucky_enqueue_scripts() {
-    wp_enqueue_style('lucky-style', plugins_url('/lucky-style.css', __FILE__), array(), time()); // Force new CSS version
-    wp_enqueue_script('lucky-script', plugins_url('/lucky.js', __FILE__), array('jquery'), time(), true); // Force new JS version
+    wp_enqueue_style('lucky-style', plugins_url('/lucky-style.css', __FILE__), array(), time());
+    wp_enqueue_script('lucky-script', plugins_url('/lucky.js', __FILE__), array('jquery'), time(), true); 
     
     global $wpdb;
     $table = 'restaurants';
@@ -27,7 +27,7 @@ $restaurants = $wpdb->get_results("
 foreach ($restaurants as &$restaurant) {
     $slug = !empty($restaurant['post_slug']) 
         ? $restaurant['post_slug'] 
-        : sanitize_title($restaurant['name']); // WordPress function to properly generate slugs
+        : sanitize_title($restaurant['name']); 
 
     $restaurant['post_url'] = "https://thebellinghambuzz.com/locations2/" . $slug;
 }

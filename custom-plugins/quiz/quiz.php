@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Bellingham Buzz Quiz
- * Description: A quiz that recommends restaurants/bars based on preferences.
+ * Description: A quiz that recommends location based on preferences.
  * Version: 1.0.0
  * Author: Sophia
  */
@@ -11,8 +11,8 @@ if (!defined('ABSPATH')) {
 }
 
 function bb_enqueue_scripts() {
-    wp_enqueue_style('bb-quiz-style', plugins_url('/style.css', __FILE__), array(), time()); // Force new CSS version
-    wp_enqueue_script('bb-quiz-script', plugins_url('/quiz.js', __FILE__), array('jquery'), time(), true); // Force new JS version
+    wp_enqueue_style('bb-quiz-style', plugins_url('/style.css', __FILE__), array(), time()); 
+    wp_enqueue_script('bb-quiz-script', plugins_url('/quiz.js', __FILE__), array('jquery'), time(), true);
     
     global $wpdb;
     $table = 'restaurants';

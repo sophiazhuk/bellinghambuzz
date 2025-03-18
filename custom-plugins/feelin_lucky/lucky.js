@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
 function slugify(text) {
     return text
         .toString()
-        .normalize("NFD") // Normalize special characters
-        .replace(/[\u0300-\u036f]/g, "") // Remove diacritics
+        .normalize("NFD") 
+        .replace(/[\u0300-\u036f]/g, "") 
         .toLowerCase()
         .trim()
-        .replace(/[^a-z0-9-]/g, '-') // Replace special characters with hyphens
-        .replace(/-+/g, '-'); // Remove duplicate hyphens
+        .replace(/[^a-z0-9-]/g, '-') 
+        .replace(/-+/g, '-'); 
 }
 
     function getRandomRestaurant() {
