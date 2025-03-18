@@ -3,15 +3,13 @@
 thebellinghambuzz.com
 
 Discover the best bars, restaurants, and events buzzing in Bellingham.
----
+
 ## Table of Contents
 
 - [About](#about)
 - [Creation](#creation)
 - [Contents of this Repo](#contents-of-this-repo)
 - [Credit](#credit)
-
----
 
 ## About
 
@@ -30,8 +28,6 @@ Our website aims to make finding a place convenient, not dreadful. It involves t
 2. I’m feeling Lucky button
 3. Browse page
 
----
-
 ## Creation
 
 ### Design
@@ -44,7 +40,7 @@ We wanted our style to feel familiar to Bellingham locals while emphasizing the 
 
 ### Tools
 For the creation of this site, we used Wordpress and MySQL to manage our database. We also made our custom plugins and templates with PHP. Initial designs and mockups were made with Figma.
----
+
 ## Contents of this Repo
 
 ### Data Table (restaurants.sql)
@@ -74,13 +70,10 @@ This template was made to fill out all the location's information from the datab
 
 ### Style
 [style.css](style.css) is the style sheet made by the theme Sharkwave but with our additional styling for our plugins and other features. 
----
+
 ## Credit
+- Sophia Zhuk
+- Maya Galley
+- Kiley Schutte
 
-Sophia Zhuk
-
-Maya Galley
-
-Kiley Schutte
----
 A project for CSCI 348 @ WWU.
