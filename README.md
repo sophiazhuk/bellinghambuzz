@@ -1,7 +1,7 @@
 # Bellingham Buzz
 
 
-[thebellinghambuzz.com](NightoutDataset.csv)
+[thebellinghambuzz.com](https://thebellinghambuzz.com/)
 
 [Our Video!](https://www.youtube.com/watch?v=PXj-GEdxkLU)
 
@@ -51,12 +51,12 @@ For the creation of this site, we used Wordpress and MySQL to manage our databas
 The restaurants table contains information about various restaurants, bars, and other establishments in Bellingham. Each row represents a different establishment with details such as name, type, description, address, and various attributes like price range, accessibility, and operating hours. The table includes columns for specific features like happy hour times, whether dogs are allowed, and if the place is adults-only. The table uses an id column as the primary key, which is set to auto-increment to ensure unique identifiers for each entry.
 
 ### OG Google Sheets Data Set
-[NightoutDataset.csv](NightoutDataset.csv) was the initial data set we made in preparation for our project.
+[NightoutDataset.csv](data/NightoutDataset.csv) was the initial data set we made in preparation for our project.
 ### Plugins 
 In the custom plugins folder you will find the 3 custom plugins made for the functionality of our site: auto, quiz, and feelin_lucky.
 
 #### Auto Populate Custom Posts
-This plugin ([auto.php](auto.php)) makes a magic button within the Wordpress dashboard that auto creates custom posts for every location entry.
+This plugin ([auto.php](custom-plugins/auto.php)) makes a magic button within the Wordpress dashboard that auto creates custom posts for every location entry.
 This was made so that we didn't get carpal tunnel making every location it's own post.
 It registers a custom post type 'locations2' and associated taxonomies, and provides an admin menu option to trigger the population of these posts. When activated, it fetches location data, checks for existing posts to avoid duplicates, and creates new posts with relevant metadata such as opening hours and categories. The plugin ensures that the custom post type and taxonomies are properly registered and flushed on activation.
 
@@ -73,7 +73,7 @@ single-locations2.php
 This template was made to fill out all the location's information from the database. It displays the location's title, image, and various metadata such as type, approval status, price range, age restriction, vibe, and activity level. It fetches restaurant details and displays information like accessibility, dog-friendliness, happy hour availability, and outdoor seating. It also provides links to the restaurant's website and Google Maps directions, and shows the restaurant's opening hours for each day of the week. Finally, it includes the footer template part.
 
 ### Style
-[style.css](style.css) is the style sheet made by the theme Sharkwave but with our additional styling for our plugins and other features. 
+[style.css](css/style.css) is the style sheet made by the theme Sharkwave but with our additional styling for our plugins and other features. 
 
 ## Credit
 - Sophia Zhuk
