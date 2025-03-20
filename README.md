@@ -1,6 +1,9 @@
 # Bellingham Buzz
 
-thebellinghambuzz.com
+
+[thebellinghambuzz.com](NightoutDataset.csv)
+[Our Video!](https://www.youtube.com/watch?v=PXj-GEdxkLU)
+
 
 Discover the best bars, restaurants, and events buzzing in Bellingham.
 
